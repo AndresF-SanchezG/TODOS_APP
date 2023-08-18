@@ -10,7 +10,7 @@ function TodoSearch() {
     
 
     return(
-      <input placeholder='Cortar Cebolla' className="TodoSearch" value={searchValue} onChange={(event)=>{
+      <input placeholder='Presiona (+) e ingresa tu primer TODO' className="TodoSearch" value={searchValue} onChange={(event)=>{
         setSearchValue(event.target.value)
 
       }}/>
